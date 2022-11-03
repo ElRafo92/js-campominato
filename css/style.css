@@ -13,6 +13,12 @@
           COLORS
    =======================
    ======================= */
+.bg-celes {
+background-color: cyan;
+border: 0.0625rem solid black;
+color: black;
+}
+
 .bg-green {
     background-color: limegreen;
     border: 0.0625rem solid black;
