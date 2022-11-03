@@ -1,0 +1,72 @@
+/* =======================
+   =======================
+            RESET
+   =======================
+   ======================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* =======================
+   =======================
+          COLORS
+   =======================
+   ======================= */
+.bg-green {
+    background-color: limegreen;
+    border: 0.0625rem solid black;
+    color: black;
+}
+
+.bg-red {
+    background-color: crimson;
+    border: 0.0625rem solid black;
+    color: black;
+}
+
+/* =======================
+   =======================
+         UTILITIES
+   =======================
+   ======================= */
+.container {
+    max-width: 75rem;
+    margin: auto;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.tabella {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.casella-width1 {
+    width: calc(100% / 10);
+}
+
+.casella-width2 {
+    width: calc(100% / 9);
+}
+
+.casella-width3 {
+    width: calc(100% / 7);
+}
+
+.casella {
+    height: 5.625rem;
+    line-height: 5.625rem;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 0.625rem;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
