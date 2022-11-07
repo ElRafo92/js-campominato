@@ -48,7 +48,7 @@ genera.addEventListener('click', function() {
 
         tabella.append(casella);
     };
-    let totCell = 100;
+    let totCell = Number(document.getElementById('difficolta').value);
     ;
     let bombe = [];
     uniqueRandomGenerator(bombe, totCell);
