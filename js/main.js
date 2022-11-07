@@ -48,7 +48,7 @@ genera.addEventListener('click', function() {
 
         tabella.append(casella);
     };
-    let totCell = 16;
+    let totCell = 100;
     ;
     let bombe = [];
     uniqueRandomGenerator(bombe, totCell);
